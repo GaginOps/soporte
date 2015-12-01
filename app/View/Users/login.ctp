@@ -10,6 +10,6 @@
     ?>
     </fieldset>
 <?php echo $this->Form->end(__('Login')); ?>
-<?php echo $this->Html->link('salir',array('controller'=>'users','action'=>'logout'));?>
+<?php //echo $this->Html->link('salir',array('controller'=>'users','action'=>'logout'));?>
 </div>
 <?php //debug($this->Auth->RedirectUrl()); ?>
