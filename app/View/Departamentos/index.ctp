@@ -1,6 +1,11 @@
-<div class="departamentos index">
+<div class="page-header">
+
 	<h2><?php echo __('Departamentos'); ?></h2>
-	<table cellpadding="0" cellspacing="0">
+
+</div>
+
+	<div class="col-md-12">
+        	<table class="table table-striped">
 	<thead>
 	<tr>
 			<th><?php echo $this->Paginator->sort('id'); ?></th>
@@ -20,14 +25,15 @@
 		<td><?php echo h($departamento['Departamento']['modified']); ?>&nbsp;</td>
 		<td><?php echo h($departamento['Departamento']['user_id']); ?>&nbsp;</td>
 		<td class="actions">
-			<?php echo $this->Html->link(__('View'), array('action' => 'view', $departamento['Departamento']['id'])); ?>
-			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $departamento['Departamento']['id'])); ?>
-			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $departamento['Departamento']['id']), array('confirm' => __('Are you sure you want to delete # %s?', $departamento['Departamento']['id']))); ?>
+			<?php echo $this->Html->link(__('View'), array('action' => 'view', $departamento['Departamento']['id']), array('class' => 'btn btn-sm btn-default')); ?>
+			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $departamento['Departamento']['id']), array('class' => 'btn btn-sm btn-primary')); ?>
+			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $departamento['Departamento']['id']), array('class' => 'btn btn-sm btn-danger'), array('confirm' => __('Are you sure you want to delete # %s?', $departamento['Departamento']['id']))); ?>
 		</td>
 	</tr>
 <?php endforeach; ?>
 	</tbody>
 	</table>
+	</div>
 	<p>
 	<?php
 	echo $this->Paginator->counter(array(
@@ -36,11 +42,11 @@
 	?>	</p>
 	<div class="paging">
 	<?php
-		echo $this->Paginator->prev('< ' . __('previous'), array(), null, array('class' => 'prev disabled'));
-		echo $this->Paginator->numbers(array('separator' => ''));
-		echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => 'next disabled'));
+		echo $this->Paginator->prev('< ' . __('previous'), array(), null, array('class' => 'prev disabled btn btn-sm btn-info'));
+        		echo $this->Paginator->numbers(array('separator' => ''));
+        		echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => 'next disabled btn btn-sm btn-info'));
 	?>
-	</div>
+
 </div>
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
