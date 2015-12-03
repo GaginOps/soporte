@@ -44,11 +44,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <?php echo $this->element('menu'); ?>
  <div class="container theme-showcase" role="main">
 
-<!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Bienvenido...</h1>
-        <p> Sistema de soporte Bla Bla Bla </p>
-      </div>
+
 
       <?php echo $this->Flash->render(); ?>
 
