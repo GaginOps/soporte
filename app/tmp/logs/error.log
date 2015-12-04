@@ -1,0 +1,2975 @@
+2015-11-19 08:07:56 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/User
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-19 08:13:42 Error: Fatal Error (4): syntax error, unexpected ')', expecting function (T_FUNCTION) in [C:\xampp\htdocs\soporte\app\Model\Departamento.php, line 69]
+2015-11-19 08:13:42 Error: [FatalErrorException] syntax error, unexpected ')', expecting function (T_FUNCTION)
+Request URL: /soporte/departamentos/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 69)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 69, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 69, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-19 08:24:41 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\soporte\app\Model\Tarea.php, line 33]
+2015-11-19 08:24:41 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /soporte/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 33, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 33, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-19 08:27:08 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1234' for key 'clave'
+Request URL: /soporte/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `so...', Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(1024): DboSource->execute('INSERT INTO `so...')
+#3 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1933): DboSource->create(Object(User), Array, Array)
+#4 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\soporte\app\Controller\UsersController.php(51): Model->save(Array)
+#6 [internal function]: UsersController->add()
+#7 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-11-19 08:41:57 Error: Fatal Error (1): Class 'BlowFishPasswordHasher' not found in [C:\xampp\htdocs\soporte\app\Model\User.php, line 135]
+2015-11-19 08:41:57 Error: [FatalErrorException] Class 'BlowFishPasswordHasher' not found
+Request URL: /soporte/users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 135)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 135, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 135, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-19 08:48:39 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\soporte\app\Model\User.php, line 74]
+2015-11-19 08:48:39 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /soporte/users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 74, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-19 08:49:20 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\soporte\app\Model\User.php, line 73]
+2015-11-19 08:49:20 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /soporte/users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 73)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 73, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 73, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-19 08:49:21 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\soporte\app\Model\User.php, line 73]
+2015-11-19 08:49:21 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /soporte/users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 73)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 73, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 73, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-19 08:50:44 Error: Fatal Error (1): Class 'BlowFishPasswordHasher' not found in [C:\xampp\htdocs\soporte\app\Model\User.php, line 115]
+2015-11-19 08:50:44 Error: [FatalErrorException] Class 'BlowFishPasswordHasher' not found
+Request URL: /soporte/users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-19 08:51:34 Error: Fatal Error (1): Class 'BlowFishPasswordHasher' not found in [C:\xampp\htdocs\soporte\app\Model\User.php, line 115]
+2015-11-19 08:51:34 Error: [FatalErrorException] Class 'BlowFishPasswordHasher' not found
+Request URL: /soporte/users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-19 08:51:35 Error: Fatal Error (1): Class 'BlowFishPasswordHasher' not found in [C:\xampp\htdocs\soporte\app\Model\User.php, line 115]
+2015-11-19 08:51:35 Error: [FatalErrorException] Class 'BlowFishPasswordHasher' not found
+Request URL: /soporte/users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-19 08:51:36 Error: Fatal Error (1): Class 'BlowFishPasswordHasher' not found in [C:\xampp\htdocs\soporte\app\Model\User.php, line 115]
+2015-11-19 08:51:36 Error: [FatalErrorException] Class 'BlowFishPasswordHasher' not found
+Request URL: /soporte/users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-19 08:51:36 Error: Fatal Error (1): Class 'BlowFishPasswordHasher' not found in [C:\xampp\htdocs\soporte\app\Model\User.php, line 115]
+2015-11-19 08:51:36 Error: [FatalErrorException] Class 'BlowFishPasswordHasher' not found
+Request URL: /soporte/users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-19 08:51:36 Error: Fatal Error (1): Class 'BlowFishPasswordHasher' not found in [C:\xampp\htdocs\soporte\app\Model\User.php, line 115]
+2015-11-19 08:51:36 Error: [FatalErrorException] Class 'BlowFishPasswordHasher' not found
+Request URL: /soporte/users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-19 08:51:36 Error: Fatal Error (1): Class 'BlowFishPasswordHasher' not found in [C:\xampp\htdocs\soporte\app\Model\User.php, line 115]
+2015-11-19 08:51:36 Error: [FatalErrorException] Class 'BlowFishPasswordHasher' not found
+Request URL: /soporte/users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-19 08:51:37 Error: Fatal Error (1): Class 'BlowFishPasswordHasher' not found in [C:\xampp\htdocs\soporte\app\Model\User.php, line 115]
+2015-11-19 08:51:37 Error: [FatalErrorException] Class 'BlowFishPasswordHasher' not found
+Request URL: /soporte/users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-19 08:51:37 Error: Fatal Error (1): Class 'BlowFishPasswordHasher' not found in [C:\xampp\htdocs\soporte\app\Model\User.php, line 115]
+2015-11-19 08:51:37 Error: [FatalErrorException] Class 'BlowFishPasswordHasher' not found
+Request URL: /soporte/users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-19 08:51:37 Error: Fatal Error (1): Class 'BlowFishPasswordHasher' not found in [C:\xampp\htdocs\soporte\app\Model\User.php, line 115]
+2015-11-19 08:51:37 Error: [FatalErrorException] Class 'BlowFishPasswordHasher' not found
+Request URL: /soporte/users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'BlowFish...', 'C:\\xampp\\htdocs...', 115, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-19 08:52:58 Error: Fatal Error (1): Class 'BlowfishPasswordHasher' not found in [C:\xampp\htdocs\soporte\app\Model\User.php, line 115]
+2015-11-19 08:52:58 Error: [FatalErrorException] Class 'BlowfishPasswordHasher' not found
+Request URL: /soporte/users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Blowfish...', 'C:\\xampp\\htdocs...', 115)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Blowfish...', 'C:\\xampp\\htdocs...', 115, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Blowfish...', 'C:\\xampp\\htdocs...', 115, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-19 08:52:59 Error: Fatal Error (1): Class 'BlowfishPasswordHasher' not found in [C:\xampp\htdocs\soporte\app\Model\User.php, line 115]
+2015-11-19 08:52:59 Error: [FatalErrorException] Class 'BlowfishPasswordHasher' not found
+Request URL: /soporte/users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Blowfish...', 'C:\\xampp\\htdocs...', 115)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Blowfish...', 'C:\\xampp\\htdocs...', 115, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Blowfish...', 'C:\\xampp\\htdocs...', 115, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-19 08:54:30 Error: Fatal Error (1): Call to a member function success() on null in [C:\xampp\htdocs\soporte\app\Controller\UsersController.php, line 77]
+2015-11-19 08:54:30 Error: [FatalErrorException] Call to a member function success() on null
+Request URL: /soporte/users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 77)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 77, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 77, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-19 23:56:05 Error: Fatal Error (1): Call to a member function login() on null in [C:\xampp\htdocs\soporte\app\Controller\UsersController.php, line 30]
+2015-11-19 23:56:05 Error: [FatalErrorException] Call to a member function login() on null
+Request URL: /soporte/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-19 23:57:13 Error: Fatal Error (4): syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\xampp\htdocs\soporte\app\Controller\UsersController.php, line 34]
+2015-11-19 23:57:13 Error: [FatalErrorException] syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /soporte/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-19 23:58:29 Error: Fatal Error (1): Call to a member function login() on null in [C:\xampp\htdocs\soporte\app\Controller\UsersController.php, line 30]
+2015-11-19 23:58:29 Error: [FatalErrorException] Call to a member function login() on null
+Request URL: /soporte/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 00:00:32 Error: Fatal Error (1): Call to a member function allow() on null in [C:\xampp\htdocs\soporte\app\Controller\UsersController.php, line 22]
+2015-11-20 00:00:32 Error: [FatalErrorException] Call to a member function allow() on null
+Request URL: /soporte/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 22, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 22, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 00:00:34 Error: Fatal Error (1): Call to a member function allow() on null in [C:\xampp\htdocs\soporte\app\Controller\UsersController.php, line 22]
+2015-11-20 00:00:34 Error: [FatalErrorException] Call to a member function allow() on null
+Request URL: /soporte/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 22, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 22, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 00:00:35 Error: Fatal Error (1): Call to a member function allow() on null in [C:\xampp\htdocs\soporte\app\Controller\UsersController.php, line 22]
+2015-11-20 00:00:35 Error: [FatalErrorException] Call to a member function allow() on null
+Request URL: /soporte/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 22, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 22, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 00:00:35 Error: Fatal Error (1): Call to a member function allow() on null in [C:\xampp\htdocs\soporte\app\Controller\UsersController.php, line 22]
+2015-11-20 00:00:35 Error: [FatalErrorException] Call to a member function allow() on null
+Request URL: /soporte/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 22, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 22, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 00:01:21 Error: Fatal Error (1): Call to a member function login() on null in [C:\xampp\htdocs\soporte\app\Controller\UsersController.php, line 30]
+2015-11-20 00:01:21 Error: [FatalErrorException] Call to a member function login() on null
+Request URL: /soporte/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 00:02:11 Error: Fatal Error (1): Call to a member function login() on null in [C:\xampp\htdocs\soporte\app\Controller\UsersController.php, line 30]
+2015-11-20 00:02:11 Error: [FatalErrorException] Call to a member function login() on null
+Request URL: /soporte/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 00:02:13 Error: Fatal Error (1): Call to a member function login() on null in [C:\xampp\htdocs\soporte\app\Controller\UsersController.php, line 30]
+2015-11-20 00:02:13 Error: [FatalErrorException] Call to a member function login() on null
+Request URL: /soporte/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 00:02:20 Error: Fatal Error (1): Call to a member function login() on null in [C:\xampp\htdocs\soporte\app\Controller\UsersController.php, line 30]
+2015-11-20 00:02:20 Error: [FatalErrorException] Call to a member function login() on null
+Request URL: /soporte/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 00:36:50 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\soporte\app\Controller\AppController.php, line 51]
+2015-11-20 00:36:51 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 51, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 51, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 00:46:13 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\soporte\app\Model\User.php, line 121]
+2015-11-20 00:46:13 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 121)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 121, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 121, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 00:46:14 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\soporte\app\Model\User.php, line 121]
+2015-11-20 00:46:14 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 121)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 121, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 121, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-20 02:07:32 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-20 02:10:26 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-20 02:10:35 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/users
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-20 02:10:39 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/user
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-20 07:18:27 Error: Fatal Error (4): syntax error, unexpected 'strpos' (T_STRING) in [C:\xampp\htdocs\soporte\lib\Cake\Utility\Security.php, line 283]
+2015-11-20 07:18:27 Error: [FatalErrorException] syntax error, unexpected 'strpos' (T_STRING)
+Request URL: /soporte/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 283)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 283, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 283, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-21 01:08:03 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-21 01:29:34 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-21 01:35:41 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/users
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-21 01:35:46 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/users
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-21 01:36:57 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/users
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-21 01:37:13 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/users
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-21 01:37:18 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/users
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-21 01:40:21 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\Auth\BaseAuthorize.php(72): ControllerAuthorize->controller(Object(PagesController))
+#1 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(504): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(466): AuthComponent->constructAuthorize()
+#3 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(310): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(PagesController))
+#5 C:\xampp\htdocs\soporte\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\xampp\htdocs\soporte\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#10 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-21 01:40:28 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\Auth\BaseAuthorize.php(72): ControllerAuthorize->controller(Object(PagesController))
+#1 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(504): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(466): AuthComponent->constructAuthorize()
+#3 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(310): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(PagesController))
+#5 C:\xampp\htdocs\soporte\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\xampp\htdocs\soporte\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#10 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-21 01:40:39 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\Auth\BaseAuthorize.php(72): ControllerAuthorize->controller(Object(TareasController))
+#1 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(504): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(466): AuthComponent->constructAuthorize()
+#3 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(310): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(TareasController))
+#5 C:\xampp\htdocs\soporte\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\xampp\htdocs\soporte\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#10 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TareasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-21 01:40:44 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /soporte/departamentos/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\Auth\BaseAuthorize.php(72): ControllerAuthorize->controller(Object(DepartamentosController))
+#1 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(504): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(466): AuthComponent->constructAuthorize()
+#3 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(310): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(DepartamentosController))
+#5 C:\xampp\htdocs\soporte\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\xampp\htdocs\soporte\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#10 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(DepartamentosController), Object(CakeRequest))
+#11 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-21 01:40:47 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /soporte/users
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\Auth\BaseAuthorize.php(72): ControllerAuthorize->controller(Object(UsersController))
+#1 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(504): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(466): AuthComponent->constructAuthorize()
+#3 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(310): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(UsersController))
+#5 C:\xampp\htdocs\soporte\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\xampp\htdocs\soporte\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#10 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-21 01:40:50 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /soporte/tareas
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\Auth\BaseAuthorize.php(72): ControllerAuthorize->controller(Object(TareasController))
+#1 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(504): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(466): AuthComponent->constructAuthorize()
+#3 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(310): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(TareasController))
+#5 C:\xampp\htdocs\soporte\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\xampp\htdocs\soporte\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#10 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TareasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-21 01:41:07 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /soporte/users
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\Auth\BaseAuthorize.php(72): ControllerAuthorize->controller(Object(UsersController))
+#1 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(504): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(466): AuthComponent->constructAuthorize()
+#3 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(310): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(UsersController))
+#5 C:\xampp\htdocs\soporte\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\xampp\htdocs\soporte\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#10 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-21 01:45:49 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /soporte/users
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\Auth\BaseAuthorize.php(72): ControllerAuthorize->controller(Object(UsersController))
+#1 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(504): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(466): AuthComponent->constructAuthorize()
+#3 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(310): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(UsersController))
+#5 C:\xampp\htdocs\soporte\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 C:\xampp\htdocs\soporte\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#8 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#9 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#10 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-11-21 01:46:22 Error: Fatal Error (4): syntax error, unexpected '*' in [C:\xampp\htdocs\soporte\app\Controller\AppController.php, line 70]
+2015-11-21 01:46:22 Error: [FatalErrorException] syntax error, unexpected '*'
+Request URL: /soporte/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 70, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 70, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-21 01:46:41 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\xampp\htdocs\soporte\app\Controller\AppController.php, line 73]
+2015-11-21 01:46:41 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /soporte/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 73)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 73, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 73, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-21 01:46:42 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\xampp\htdocs\soporte\app\Controller\AppController.php, line 73]
+2015-11-21 01:46:42 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /soporte/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 73)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 73, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 73, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-21 01:46:43 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\xampp\htdocs\soporte\app\Controller\AppController.php, line 73]
+2015-11-21 01:46:43 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /soporte/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 73)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 73, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 73, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-21 01:46:46 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\xampp\htdocs\soporte\app\Controller\AppController.php, line 73]
+2015-11-21 01:46:46 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /soporte/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 73)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 73, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 73, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-21 01:46:48 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\xampp\htdocs\soporte\app\Controller\AppController.php, line 73]
+2015-11-21 01:46:48 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /soporte/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 73)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 73, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 73, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-21 01:47:28 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/users
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-21 01:47:42 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/users
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-21 05:21:53 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /soporte/tareas
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3653): Model->setSource('usuarios')
+#1 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(2529): Model->schema()
+#3 C:\xampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(1753): DboSource->fields(Object(AppModel), 'Usuario', '')
+#4 C:\xampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(1105): DboSource->generateAssociationQuery(Object(Tarea), Object(AppModel), 'belongsTo', 'Usuario', Array, Array, false)
+#5 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Tarea), Array)
+#6 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#7 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#8 C:\xampp\htdocs\soporte\app\Controller\TareasController.php(25): PaginatorComponent->paginate()
+#9 [internal function]: TareasController->index()
+#10 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TareasController), Array)
+#11 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TareasController), Object(CakeRequest))
+#13 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-11-21 05:22:02 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3653): Model->setSource('usuarios')
+#1 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1483): Model->schema()
+#3 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1470): Model->hasField('title', false)
+#4 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(907): Model->hasField(Array)
+#5 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3199): Model->__get('displayField')
+#6 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3064): Model->_findList('before', Array)
+#7 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(2998): Model->buildQuery('list', Array)
+#8 C:\xampp\htdocs\soporte\app\Controller\TareasController.php(58): Model->find('list')
+#9 [internal function]: TareasController->add()
+#10 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TareasController), Array)
+#11 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TareasController), Object(CakeRequest))
+#13 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-11-23 04:29:33 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 04:29:58 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 04:30:29 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 04:30:51 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 04:32:38 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 04:36:27 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 04:36:34 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 04:39:22 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 04:39:28 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 04:55:25 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 04:55:35 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 05:09:27 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 05:09:29 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 05:09:44 Error: [MissingControllerException] Controller class DashboardController could not be found.
+Exception Attributes: array (
+  'class' => 'DashboardController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/dashboard/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 05:10:24 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 05:13:50 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 05:38:25 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/users
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 05:39:32 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/users/view
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 05:41:37 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/users/view
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 05:41:48 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/users/view
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 05:41:52 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/users/view
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 05:52:37 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/index
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 05:54:27 Error: [MissingActionException] Action UsersController::tareas() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'tareas',
+)
+Request URL: /soporte/users/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-11-23 05:55:32 Error: [MissingControllerException] Controller class TarasController could not be found.
+Exception Attributes: array (
+  'class' => 'TarasController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/taras/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 05:55:41 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 06:00:46 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 06:00:49 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 06:01:28 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 06:01:43 Error: [MissingControllerException] Controller class DepartamentoController could not be found.
+Exception Attributes: array (
+  'class' => 'DepartamentoController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/departamento/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 06:02:01 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/departamentos/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 06:07:58 Error: Fatal Error (4): syntax error, unexpected ''logoutRedirect'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\soporte\app\Controller\AppController.php, line 39]
+2015-11-23 06:07:58 Error: [FatalErrorException] syntax error, unexpected ''logoutRedirect'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-23 06:07:58 Error: Fatal Error (4): syntax error, unexpected ''logoutRedirect'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\soporte\app\Controller\AppController.php, line 39]
+2015-11-23 06:07:58 Error: [FatalErrorException] syntax error, unexpected ''logoutRedirect'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-23 06:07:58 Error: Fatal Error (4): syntax error, unexpected ''logoutRedirect'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\soporte\app\Controller\AppController.php, line 39]
+2015-11-23 06:07:58 Error: [FatalErrorException] syntax error, unexpected ''logoutRedirect'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-23 06:08:32 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/users/view/contoller:users
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 06:09:42 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/users/view
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 06:13:45 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/users/view
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 06:13:54 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/users/view
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 08:02:11 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\xampp\htdocs\soporte\app\Controller\UsersController.php, line 239]
+2015-11-23 08:02:11 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 239)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 239, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 239, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-23 08:08:34 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\xampp\htdocs\soporte\app\Controller\UsersController.php, line 239]
+2015-11-23 08:08:34 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 239)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 239, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 239, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-23 08:08:45 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\xampp\htdocs\soporte\app\Controller\UsersController.php, line 239]
+2015-11-23 08:08:45 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 239)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 239, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 239, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-23 08:21:49 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\soporte\app\Controller\UsersController.php, line 33]
+2015-11-23 08:21:49 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /soporte/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 33, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 33, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-23 08:22:32 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\soporte\app\Controller\UsersController.php, line 265]
+2015-11-23 08:22:32 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /soporte/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 265)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 265, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 265, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-23 08:29:28 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3653): Model->setSource('usuarios')
+#1 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1483): Model->schema()
+#3 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1470): Model->hasField('title', false)
+#4 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(907): Model->hasField(Array)
+#5 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3199): Model->__get('displayField')
+#6 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3064): Model->_findList('before', Array)
+#7 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(2998): Model->buildQuery('list', Array)
+#8 C:\xampp\htdocs\soporte\app\Controller\TareasController.php(58): Model->find('list')
+#9 [internal function]: TareasController->add()
+#10 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TareasController), Array)
+#11 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TareasController), Object(CakeRequest))
+#13 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-11-23 08:33:07 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /soporte/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(858): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\soporte\app\View\Users\login.ctp(15): View->__get('Auth')
+#3 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-11-23 08:35:24 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3653): Model->setSource('usuarios')
+#1 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1483): Model->schema()
+#3 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1470): Model->hasField('title', false)
+#4 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(907): Model->hasField(Array)
+#5 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3199): Model->__get('displayField')
+#6 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3064): Model->_findList('before', Array)
+#7 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(2998): Model->buildQuery('list', Array)
+#8 C:\xampp\htdocs\soporte\app\Controller\TareasController.php(58): Model->find('list')
+#9 [internal function]: TareasController->add()
+#10 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TareasController), Array)
+#11 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TareasController), Object(CakeRequest))
+#13 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-11-23 08:38:02 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3653): Model->setSource('usuarios')
+#1 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1483): Model->schema()
+#3 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1470): Model->hasField('title', false)
+#4 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(907): Model->hasField(Array)
+#5 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3199): Model->__get('displayField')
+#6 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3064): Model->_findList('before', Array)
+#7 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(2998): Model->buildQuery('list', Array)
+#8 C:\xampp\htdocs\soporte\app\Controller\TareasController.php(58): Model->find('list')
+#9 [internal function]: TareasController->add()
+#10 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TareasController), Array)
+#11 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TareasController), Object(CakeRequest))
+#13 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-11-23 08:40:32 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3653): Model->setSource('usuarios')
+#1 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1483): Model->schema()
+#3 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1470): Model->hasField('title', false)
+#4 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(907): Model->hasField(Array)
+#5 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3199): Model->__get('displayField')
+#6 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3064): Model->_findList('before', Array)
+#7 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(2998): Model->buildQuery('list', Array)
+#8 C:\xampp\htdocs\soporte\app\Controller\TareasController.php(58): Model->find('list')
+#9 [internal function]: TareasController->add()
+#10 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TareasController), Array)
+#11 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TareasController), Object(CakeRequest))
+#13 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-11-23 08:42:28 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3653): Model->setSource('usuarios')
+#1 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1483): Model->schema()
+#3 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1470): Model->hasField('title', false)
+#4 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(907): Model->hasField(Array)
+#5 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3199): Model->__get('displayField')
+#6 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3064): Model->_findList('before', Array)
+#7 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(2998): Model->buildQuery('list', Array)
+#8 C:\xampp\htdocs\soporte\app\Controller\TareasController.php(58): Model->find('list')
+#9 [internal function]: TareasController->add()
+#10 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TareasController), Array)
+#11 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TareasController), Object(CakeRequest))
+#13 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-11-23 08:42:30 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3653): Model->setSource('usuarios')
+#1 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1483): Model->schema()
+#3 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1470): Model->hasField('title', false)
+#4 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(907): Model->hasField(Array)
+#5 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3199): Model->__get('displayField')
+#6 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3064): Model->_findList('before', Array)
+#7 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(2998): Model->buildQuery('list', Array)
+#8 C:\xampp\htdocs\soporte\app\Controller\TareasController.php(58): Model->find('list')
+#9 [internal function]: TareasController->add()
+#10 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TareasController), Array)
+#11 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TareasController), Object(CakeRequest))
+#13 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-11-23 08:42:31 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3653): Model->setSource('usuarios')
+#1 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1483): Model->schema()
+#3 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1470): Model->hasField('title', false)
+#4 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(907): Model->hasField(Array)
+#5 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3199): Model->__get('displayField')
+#6 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3064): Model->_findList('before', Array)
+#7 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(2998): Model->buildQuery('list', Array)
+#8 C:\xampp\htdocs\soporte\app\Controller\TareasController.php(58): Model->find('list')
+#9 [internal function]: TareasController->add()
+#10 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TareasController), Array)
+#11 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TareasController), Object(CakeRequest))
+#13 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-11-23 08:42:32 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3653): Model->setSource('usuarios')
+#1 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1483): Model->schema()
+#3 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1470): Model->hasField('title', false)
+#4 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(907): Model->hasField(Array)
+#5 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3199): Model->__get('displayField')
+#6 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3064): Model->_findList('before', Array)
+#7 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(2998): Model->buildQuery('list', Array)
+#8 C:\xampp\htdocs\soporte\app\Controller\TareasController.php(58): Model->find('list')
+#9 [internal function]: TareasController->add()
+#10 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TareasController), Array)
+#11 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TareasController), Object(CakeRequest))
+#13 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-11-23 08:42:42 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3653): Model->setSource('usuarios')
+#1 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1483): Model->schema()
+#3 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1470): Model->hasField('title', false)
+#4 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(907): Model->hasField(Array)
+#5 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3199): Model->__get('displayField')
+#6 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3064): Model->_findList('before', Array)
+#7 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(2998): Model->buildQuery('list', Array)
+#8 C:\xampp\htdocs\soporte\app\Controller\TareasController.php(58): Model->find('list')
+#9 [internal function]: TareasController->add()
+#10 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TareasController), Array)
+#11 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TareasController), Object(CakeRequest))
+#13 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-11-23 08:44:11 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\soporte\app\Controller\TareasController.php, line 58]
+2015-11-23 08:44:11 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-23 08:45:11 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\soporte\app\Controller\TareasController.php, line 58]
+2015-11-23 08:45:11 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-23 08:45:12 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\soporte\app\Controller\TareasController.php, line 58]
+2015-11-23 08:45:12 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-23 08:46:05 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\soporte\app\Controller\TareasController.php, line 58]
+2015-11-23 08:46:05 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-23 08:46:07 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\soporte\app\Controller\TareasController.php, line 58]
+2015-11-23 08:46:07 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-23 08:46:09 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\soporte\app\Controller\TareasController.php, line 58]
+2015-11-23 08:46:09 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-23 08:46:12 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\soporte\app\Controller\TareasController.php, line 58]
+2015-11-23 08:46:12 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-23 08:47:06 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\soporte\app\Controller\TareasController.php, line 58]
+2015-11-23 08:47:06 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-23 08:47:07 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\soporte\app\Controller\TareasController.php, line 58]
+2015-11-23 08:47:07 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-22 01:15:11 Error: [MissingViewException] View file "Tareas\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tareas\\index.ctp',
+)
+Request URL: /soporte/tareas
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xaampp\htdocs\soporte\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xaampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xaampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TareasController), Object(CakeRequest))
+#4 C:\xaampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-22 01:16:08 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'numero_tarea'
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xaampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `so...', Array)
+#2 C:\xaampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(1024): DboSource->execute('INSERT INTO `so...')
+#3 C:\xaampp\htdocs\soporte\lib\Cake\Model\Model.php(1933): DboSource->create(Object(Tarea), Array, Array)
+#4 C:\xaampp\htdocs\soporte\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xaampp\htdocs\soporte\app\Controller\TareasController.php(54): Model->save(Array)
+#6 [internal function]: TareasController->add()
+#7 C:\xaampp\htdocs\soporte\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TareasController), Array)
+#8 C:\xaampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xaampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TareasController), Object(CakeRequest))
+#10 C:\xaampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-11-22 01:17:33 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'numero_tarea'
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xaampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `so...', Array)
+#2 C:\xaampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(1024): DboSource->execute('INSERT INTO `so...')
+#3 C:\xaampp\htdocs\soporte\lib\Cake\Model\Model.php(1933): DboSource->create(Object(Tarea), Array, Array)
+#4 C:\xaampp\htdocs\soporte\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xaampp\htdocs\soporte\app\Controller\TareasController.php(54): Model->save(Array)
+#6 [internal function]: TareasController->add()
+#7 C:\xaampp\htdocs\soporte\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TareasController), Array)
+#8 C:\xaampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xaampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TareasController), Object(CakeRequest))
+#10 C:\xaampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-11-22 01:17:44 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'numero_tarea'
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xaampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `so...', Array)
+#2 C:\xaampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(1024): DboSource->execute('INSERT INTO `so...')
+#3 C:\xaampp\htdocs\soporte\lib\Cake\Model\Model.php(1933): DboSource->create(Object(Tarea), Array, Array)
+#4 C:\xaampp\htdocs\soporte\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xaampp\htdocs\soporte\app\Controller\TareasController.php(54): Model->save(Array)
+#6 [internal function]: TareasController->add()
+#7 C:\xaampp\htdocs\soporte\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TareasController), Array)
+#8 C:\xaampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xaampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TareasController), Object(CakeRequest))
+#10 C:\xaampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-11-22 01:18:53 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'numero_tarea'
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xaampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `so...', Array)
+#2 C:\xaampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(1024): DboSource->execute('INSERT INTO `so...')
+#3 C:\xaampp\htdocs\soporte\lib\Cake\Model\Model.php(1933): DboSource->create(Object(Tarea), Array, Array)
+#4 C:\xaampp\htdocs\soporte\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xaampp\htdocs\soporte\app\Controller\TareasController.php(54): Model->save(Array)
+#6 [internal function]: TareasController->add()
+#7 C:\xaampp\htdocs\soporte\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TareasController), Array)
+#8 C:\xaampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xaampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TareasController), Object(CakeRequest))
+#10 C:\xaampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-11-22 01:53:25 Error: [MissingViewException] View file "Tareas\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Tareas\\index.ctp',
+)
+Request URL: /soporte/tareas
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xaampp\htdocs\soporte\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xaampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xaampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TareasController), Object(CakeRequest))
+#4 C:\xaampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-24 02:34:59 Error: Fatal Error (4): syntax error, unexpected ')', expecting ']' in [C:\xampp\htdocs\soporte\app\View\Tareas\index.ctp, line 22]
+2015-11-24 02:34:59 Error: [FatalErrorException] syntax error, unexpected ')', expecting ']'
+Request URL: /soporte/tareas
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 22, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 22, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-24 02:35:32 Error: Fatal Error (4): syntax error, unexpected ')', expecting ']' in [C:\xampp\htdocs\soporte\app\View\Tareas\index.ctp, line 22]
+2015-11-24 02:35:32 Error: [FatalErrorException] syntax error, unexpected ')', expecting ']'
+Request URL: /soporte/tareas
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 22, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 22, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-24 02:36:33 Error: Fatal Error (4): syntax error, unexpected ')', expecting ']' in [C:\xampp\htdocs\soporte\app\View\Tareas\index.ctp, line 23]
+2015-11-24 02:36:33 Error: [FatalErrorException] syntax error, unexpected ')', expecting ']'
+Request URL: /soporte/tareas
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-24 02:36:34 Error: Fatal Error (4): syntax error, unexpected ')', expecting ']' in [C:\xampp\htdocs\soporte\app\View\Tareas\index.ctp, line 23]
+2015-11-24 02:36:34 Error: [FatalErrorException] syntax error, unexpected ')', expecting ']'
+Request URL: /soporte/tareas
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-25 03:49:25 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\xampp\htdocs\soporte\app\Controller\TareasController.php, line 236]
+2015-11-25 03:49:25 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 236)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 236, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 236, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-25 03:52:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause'
+Request URL: /soporte/tareas
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Tarea`....', Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Tarea`....', Array, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(1118): DboSource->fetchAll('SELECT `Tarea`....', false)
+#4 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Tarea), Array)
+#5 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1659): Model->find('first', Array)
+#7 C:\xampp\htdocs\soporte\app\Model\Tarea.php(144): Model->field('id', Array)
+#8 C:\xampp\htdocs\soporte\app\Controller\TareasController.php(122): Tarea->isOwnedBy(0, '9')
+#9 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\Auth\ControllerAuthorize.php(63): TareasController->isAuthorized(Array)
+#10 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(469): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#11 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(310): AuthComponent->isAuthorized(Array)
+#12 [internal function]: AuthComponent->startup(Object(TareasController))
+#13 C:\xampp\htdocs\soporte\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#14 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#15 C:\xampp\htdocs\soporte\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#16 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#17 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#18 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TareasController), Object(CakeRequest))
+#19 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2015-11-25 03:56:21 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause'
+Request URL: /soporte/tareas
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Tarea`....', Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Tarea`....', Array, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php(1118): DboSource->fetchAll('SELECT `Tarea`....', false)
+#4 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Tarea), Array)
+#5 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(3003): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\soporte\lib\Cake\Model\Model.php(1659): Model->find('first', Array)
+#7 C:\xampp\htdocs\soporte\app\Model\Tarea.php(144): Model->field('id', Array)
+#8 C:\xampp\htdocs\soporte\app\Controller\TareasController.php(122): Tarea->isOwnedBy(0, '9')
+#9 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\Auth\ControllerAuthorize.php(63): TareasController->isAuthorized(Array)
+#10 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(469): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#11 C:\xampp\htdocs\soporte\lib\Cake\Controller\Component\AuthComponent.php(310): AuthComponent->isAuthorized(Array)
+#12 [internal function]: AuthComponent->startup(Object(TareasController))
+#13 C:\xampp\htdocs\soporte\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#14 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#15 C:\xampp\htdocs\soporte\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#16 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#17 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#18 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TareasController), Object(CakeRequest))
+#19 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2015-11-23 20:38:16 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\xaampp\htdocs\soporte\app\Controller\TareasController.php, line 232]
+2015-11-23 20:38:16 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xaampp\\htdoc...', 232)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xaampp\\htdoc...', 232, Array)
+#2 C:\xaampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xaampp\\htdoc...', 232, Array)
+#3 C:\xaampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-23 20:43:50 Error: [MissingControllerException] Controller class TareaController could not be found.
+Exception Attributes: array (
+  'class' => 'TareaController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/tarea
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 21:09:30 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\xaampp\htdocs\soporte\app\Controller\TareasController.php, line 226]
+2015-11-23 21:09:30 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xaampp\\htdoc...', 226)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xaampp\\htdoc...', 226, Array)
+#2 C:\xaampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xaampp\\htdoc...', 226, Array)
+#3 C:\xaampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-23 21:32:09 Error: Fatal Error (1): Call to a member function isOwnedBy() on null in [C:\xaampp\htdocs\soporte\app\Controller\TareasController.php, line 120]
+2015-11-23 21:32:09 Error: [FatalErrorException] Call to a member function isOwnedBy() on null
+Request URL: /soporte/tareas
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xaampp\\htdoc...', 120)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xaampp\\htdoc...', 120, Array)
+#2 C:\xaampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xaampp\\htdoc...', 120, Array)
+#3 C:\xaampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-23 21:39:58 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 21:40:07 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 21:40:56 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 21:47:57 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 21:48:40 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-23 21:58:52 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-24 02:00:57 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-24 02:02:18 Error: [MissingControllerException] Controller class SoporteController could not be found.
+Exception Attributes: array (
+  'class' => 'SoporteController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/soporte/tareas/add
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-24 11:17:53 Error: Fatal Error (4): syntax error, unexpected '$options' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\xaampp\htdocs\soporte\app\Controller\TareasController.php, line 31]
+2015-11-24 11:17:53 Error: [FatalErrorException] syntax error, unexpected '$options' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /soporte/tareas
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xaampp\\htdoc...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xaampp\\htdoc...', 31, Array)
+#2 C:\xaampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xaampp\\htdoc...', 31, Array)
+#3 C:\xaampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-24 11:20:06 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\xaampp\htdocs\soporte\app\Controller\TareasController.php, line 31]
+2015-11-24 11:20:06 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /soporte/tareas
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xaampp\\htdoc...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xaampp\\htdoc...', 31, Array)
+#2 C:\xaampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xaampp\\htdoc...', 31, Array)
+#3 C:\xaampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-24 11:20:25 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\xaampp\htdocs\soporte\app\Controller\TareasController.php, line 31]
+2015-11-24 11:20:25 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xaampp\\htdoc...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xaampp\\htdoc...', 31, Array)
+#2 C:\xaampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xaampp\\htdoc...', 31, Array)
+#3 C:\xaampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-24 11:24:10 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [C:\xaampp\htdocs\soporte\app\Controller\TareasController.php, line 31]
+2015-11-24 11:24:10 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xaampp\\htdoc...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xaampp\\htdoc...', 31, Array)
+#2 C:\xaampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xaampp\\htdoc...', 31, Array)
+#3 C:\xaampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-24 11:26:16 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xaampp\htdocs\soporte\app\Controller\TareasController.php, line 56]
+2015-11-24 11:26:16 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xaampp\\htdoc...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xaampp\\htdoc...', 56, Array)
+#2 C:\xaampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xaampp\\htdoc...', 56, Array)
+#3 C:\xaampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-11-24 11:41:38 Error: [MissingControllerException] Controller class DepartamentoController could not be found.
+Exception Attributes: array (
+  'class' => 'DepartamentoController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/departamento
+Stack Trace:
+#0 C:\xaampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:20:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:20:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:25:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:25:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:26:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:26:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:26:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:26:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:26:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:26:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:26:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:26:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:28:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:28:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:29:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:29:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:30:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:30:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:32:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:32:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:33:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:33:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:34:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:34:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:35:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:35:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:36:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:36:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:36:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:36:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:36:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:36:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:36:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:36:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:36:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:36:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:50:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:50:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:50:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-11-30 04:50:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/bootstrap-theme.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-01 18:04:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-01 18:08:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-01 18:08:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-01 18:09:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-01 18:10:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-01 18:28:09 Error: [MissingControllerException] Controller class MesasController could not be found.
+Exception Attributes: array (
+  'class' => 'MesasController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/mesas
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-01 18:59:56 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\soporte\app\View\Tareas\index.ctp, line 40]
+2015-12-01 18:59:56 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /soporte/tareas
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 40, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 40, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-01 19:04:46 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\soporte\app\View\Users\index.ctp, line 43]
+2015-12-01 19:04:46 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /soporte/users
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 43, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 43, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-03 05:32:34 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:32:35 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:32:35 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:36:41 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:36:42 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:36:42 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:37:01 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:37:01 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:37:01 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:37:35 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:37:35 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:37:35 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:37:44 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:37:44 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:37:44 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:37:51 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:37:51 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:37:51 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:37:54 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:37:54 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:37:54 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:37:57 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:37:57 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:37:57 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:37:58 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:37:58 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:37:58 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:42:58 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:42:58 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:42:58 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:44:56 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:44:56 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:44:56 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:45:03 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:45:03 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:45:03 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:45:05 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:45:05 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:45:05 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:45:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:45:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:45:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:46:04 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:46:04 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:46:04 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:46:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:46:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:46:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:47:00 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:47:00 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:47:00 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:47:10 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:47:10 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:47:11 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:47:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:47:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:47:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:48:26 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff2
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:48:26 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 05:48:26 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 06:25:08 Error: [MissingControllerException] Controller class Login.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Login.phpController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/login.php
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 06:25:48 Error: [MissingControllerException] Controller class Login.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Login.phpController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/login.php
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 06:26:03 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 06:26:35 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 06:27:16 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/user
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 06:27:51 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 06:30:13 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 06:31:01 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/login
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 06:32:10 Error: [MissingControllerException] Controller class UsersController.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController.phpController',
+  'plugin' => NULL,
+)
+Request URL: /soporte/UsersController.php
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-03 06:54:42 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\soporte\app\View\Users\login.ctp, line 23]
+2015-12-03 06:54:42 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-03 06:55:05 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\soporte\app\View\Users\login.ctp, line 23]
+2015-12-03 06:55:05 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-03 06:55:08 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\soporte\app\View\Users\login.ctp, line 23]
+2015-12-03 06:55:08 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-03 07:07:19 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp, line 102]
+2015-12-03 07:07:19 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 102)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 102, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 102, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-03 07:10:21 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp, line 133]
+2015-12-03 07:10:21 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 133)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 133, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 133, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-03 07:10:25 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp, line 133]
+2015-12-03 07:10:25 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 133)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 133, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 133, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-03 07:15:00 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp, line 158]
+2015-12-03 07:15:00 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 158)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 158, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 158, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-03 07:15:12 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp, line 158]
+2015-12-03 07:15:12 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 158)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 158, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 158, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-03 07:16:18 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp, line 154]
+2015-12-03 07:16:18 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 154)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 154, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 154, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-03 07:18:36 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp, line 153]
+2015-12-03 07:18:36 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 153)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 153, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 153, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-03 07:27:32 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp, line 61]
+2015-12-03 07:27:32 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 61)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 61, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 61, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-03 07:27:34 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp, line 61]
+2015-12-03 07:27:34 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 61)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 61, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 61, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-03 07:41:04 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp, line 49]
+2015-12-03 07:41:04 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /soporte/users
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 49, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 49, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-03 07:51:24 Error: Fatal Error (4): syntax error, unexpected ')', expecting variable (T_VARIABLE) in [C:\xampp\htdocs\soporte\app\Model\Departamento.php, line 43]
+2015-12-03 07:51:24 Error: [FatalErrorException] syntax error, unexpected ')', expecting variable (T_VARIABLE)
+Request URL: /soporte/departamentos/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 43, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 43, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-04 01:01:39 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\xampp\htdocs\soporte\lib\Cake\Model\Datasource\DboSource.php, line 461]
+2015-12-04 01:01:40 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\xampp\\htdocs...', 461)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\xampp\\htdocs...', 461, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\\xampp\\htdocs...', 461, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

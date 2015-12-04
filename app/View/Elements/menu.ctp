@@ -45,7 +45,7 @@
 
 
 
-<form id="signout" class="navbar-form navbar-right" role="form">
+<form id="signout" class="navbar-form navbar-right" >
 
             <li><?php echo $this->Html->link('Salir', array('controller' => 'users', 'action' => 'logout'),array('class' => 'btn btn-sm btn-danger')) ?></li>
 
