@@ -2973,3 +2973,13 @@ Stack Trace:
 #3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2015-12-04 22:22:58 Error: Fatal Error (4): syntax error, unexpected ';', expecting ':' in [C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp, line 54]
+2015-12-04 22:22:58 Error: [FatalErrorException] syntax error, unexpected ';', expecting ':'
+Request URL: /soporte/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 54, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 54, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

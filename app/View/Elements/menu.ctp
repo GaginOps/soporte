@@ -16,10 +16,10 @@
 
 
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Inicio</a></li>
+            <li class="active"><?php echo $this->Html->link('Inicio', array('controller' => 'pages', 'action' => 'home')) ?></li>
 
             <li class="dropdown">
-                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tarea <span class="caret"></span></a>
+                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tarea<span class="caret"></span></a>
                          <ul class="dropdown-menu" role="menu">
                            <li><?php echo $this->Html->link('Lista Tareas', array('controller' => 'tareas', 'action' => 'index')) ?></li>
                            <li><?php echo $this->Html->link('Nueva Tarea', array('controller' => 'tareas', 'action' => 'add')) ?></li>
@@ -45,13 +45,17 @@
 
 
 
-<form id="signout" class="navbar-form navbar-right" >
+<ul class="form-group navbar-form navbar-right">
 
             <li><?php echo $this->Html->link('Salir', array('controller' => 'users', 'action' => 'logout'),array('class' => 'btn btn-sm btn-danger')) ?></li>
-
+</ul>
 </form>
 
 <?php endif; ?>
+
+
+
+
 <form class="navbar-form navbar-right">
                         <div class="form-group">
 
@@ -119,6 +123,10 @@ echo $this->Form->submit('Sign in', array(
     'class' => 'btn btn-success'
 ));
 ?>
+<ul class=" form-group navbar-form navbar-left">
+
+                                <li><?php echo $this->Html->link('Registrarme', array('controller' => 'users', 'action' => 'add'),array('class' => 'btn btn-sm btn-primary')) ?></li>
+                    </ul>
 
                                 <?php echo $this->Form->end(); ?>
 
@@ -131,10 +139,12 @@ echo $this->Form->submit('Sign in', array(
                                 //     echo $this->Form->end(__('Login'));
                                 -->
 
-            <?php endif; ?>
+<?php endif; ?>
 
                         </div>
                     </form>
+
+
 
         </div><!--/.nav-collapse -->
       </div>
