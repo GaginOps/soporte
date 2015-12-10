@@ -25,6 +25,13 @@
                            <li><?php echo $this->Html->link('Nueva Tarea', array('controller' => 'tareas', 'action' => 'add')) ?></li>
                          </ul>
                        </li>
+                        <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cuenta<span class="caret"></span></a>
+                                                <ul class="dropdown-menu" role="menu">
+                                                  <li><?php echo $this->Html->link('Cambio de contraseña', array('controller' => 'tareas', 'action' => 'add')) ?></li>
+
+                                                </ul>
+                                              </li>
 
 
 <?php if ($is_admin): ?>
