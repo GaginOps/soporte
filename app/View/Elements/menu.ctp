@@ -63,7 +63,7 @@
 
 
 <ul class="nav navbar-nav navbar-right">
-<a class="navbar-brand" href="#">Hola <?php if(isset($username)) :?>
+<a class="navbar-brand"> <i class="fa fa-user"></i> <?php if(isset($username)) :?>
                                                            <?php echo $username; ?>
                                                            <?php endif; ?></a></ul>
 </form>
