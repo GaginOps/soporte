@@ -54,6 +54,34 @@ class AppController extends Controller {
     {
         $this->Auth->allow('login','logout');
         $this->set('current_user', $this->Auth->user());
+        $this->set('username', $this->_usersUsername());
+
+
+
+            $role = $this->Auth->user('role'); //If you are using Auth
+            //$this->Session->read('User.role'); // If you are using a normal login session.
+            if ($role == 'author' || $role == 'admin') {
+                $this->set('role', $role);
+            }
+
+            if($role == 'admin')
+            {
+                $this->set('is_admin', true);
+            }
+            else
+            {
+                $this->set('is_admin', false);
+            }
+            /***** your remaining code *******/
+
+    }
+
+    function _usersUsername(){
+        $users_username = NULL;
+        if($this->Auth->user()){
+            $users_username = $this->Auth->user('username');
+        }
+        return $users_username;
     }
     
      public function isAuthorized($user)

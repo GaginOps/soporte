@@ -2983,3 +2983,179 @@ Stack Trace:
 #3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2015-12-10 17:21:44 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp, line 171]
+2015-12-10 17:21:44 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 171)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 171, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 171, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-10 17:22:09 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp, line 171]
+2015-12-10 17:22:09 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 171)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 171, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 171, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-10 17:22:48 Error: [CakeException] Method session does not exist
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp(64): CakeRequest->__call('session', Array)
+#1 C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp(64): CakeRequest->session()
+#2 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(1227): View->_render('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(418): View->_renderElement('C:\\xampp\\htdocs...', Array, Array)
+#6 C:\xampp\htdocs\soporte\app\View\Layouts\default.ctp(44): View->element('menu')
+#7 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#11 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#12 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#13 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TareasController), Object(CakeRequest))
+#14 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-12-10 17:22:51 Error: [CakeException] Method session does not exist
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp(64): CakeRequest->__call('session', Array)
+#1 C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp(64): CakeRequest->session()
+#2 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(1227): View->_render('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(418): View->_renderElement('C:\\xampp\\htdocs...', Array, Array)
+#6 C:\xampp\htdocs\soporte\app\View\Layouts\default.ctp(44): View->element('menu')
+#7 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#11 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#12 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#13 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-12-10 17:23:01 Error: [CakeException] Method session does not exist
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp(64): CakeRequest->__call('session', Array)
+#1 C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp(64): CakeRequest->session()
+#2 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(1227): View->_render('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(418): View->_renderElement('C:\\xampp\\htdocs...', Array, Array)
+#6 C:\xampp\htdocs\soporte\app\View\Layouts\default.ctp(44): View->element('menu')
+#7 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#11 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#12 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#13 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-12-10 17:23:03 Error: [CakeException] Method session does not exist
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp(64): CakeRequest->__call('session', Array)
+#1 C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp(64): CakeRequest->session()
+#2 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(1227): View->_render('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(418): View->_renderElement('C:\\xampp\\htdocs...', Array, Array)
+#6 C:\xampp\htdocs\soporte\app\View\Layouts\default.ctp(44): View->element('menu')
+#7 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\soporte\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#11 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#12 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#13 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#14 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-12-10 17:23:32 Error: Fatal Error (1): Call to undefined method View::session() in [C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp, line 64]
+2015-12-10 17:23:32 Error: [FatalErrorException] Call to undefined method View::session()
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 64)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 64, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 64, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-10 17:23:34 Error: Fatal Error (1): Call to undefined method View::session() in [C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp, line 64]
+2015-12-10 17:23:34 Error: [FatalErrorException] Call to undefined method View::session()
+Request URL: /soporte/
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 64)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 64, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 64, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-10 17:26:30 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp, line 64]
+2015-12-10 17:26:30 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 64)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 64, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 64, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-10 17:26:57 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp, line 69]
+2015-12-10 17:26:57 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 69)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 69, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 69, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-10 17:44:48 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp, line 48]
+2015-12-10 17:44:48 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 48, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 48, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-10 17:45:07 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp, line 64]
+2015-12-10 17:45:07 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 64)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 64, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 64, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-10 17:45:15 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp, line 64]
+2015-12-10 17:45:15 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 64)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 64, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 64, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-10 17:45:27 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF) in [C:\xampp\htdocs\soporte\app\View\Elements\menu.ctp, line 64]
+2015-12-10 17:45:27 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF)
+Request URL: /soporte/tareas/add
+Stack Trace:
+#0 C:\xampp\htdocs\soporte\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 64)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 64, Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 64, Array)
+#3 C:\xampp\htdocs\soporte\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

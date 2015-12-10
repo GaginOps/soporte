@@ -26,6 +26,9 @@
                          </ul>
                        </li>
 
+
+<?php if ($is_admin): ?>
+
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Departamentos <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
@@ -42,13 +45,20 @@
                 <li><?php echo $this->Html->link('Nuevo Usuario', array('controller' => 'users', 'action' => 'add')) ?></li>
               </ul>
             </li>
-
+<?php endif; ?>
 
 
 <ul class="form-group navbar-form navbar-right">
 
             <li><?php echo $this->Html->link('Salir', array('controller' => 'users', 'action' => 'logout'),array('class' => 'btn btn-sm btn-danger')) ?></li>
 </ul>
+
+
+
+<ul class="nav navbar-nav navbar-right">
+<a class="navbar-brand" href="#">Hola <?php if(isset($username)) :?>
+                                                           <?php echo $username; ?>
+                                                           <?php endif; ?></a></ul>
 </form>
 
 <?php endif; ?>
@@ -61,12 +71,10 @@
 
 
 
-                            <?php if ($this->Session->read('Auth.User.id')): ?>
-                                <?php
-                                print
-                                        'Welcome back ';
-                                ?>
-                            <?Php else: ?>
+                           <?php if ($this->Session->read('Auth.User.id')): ?>
+
+
+                                                       <?Php else: ?>
 
 
 
@@ -123,10 +131,6 @@ echo $this->Form->submit('Sign in', array(
     'class' => 'btn btn-success'
 ));
 ?>
-<ul class=" form-group navbar-form navbar-left">
-
-                                <li><?php echo $this->Html->link('Registrarme', array('controller' => 'users', 'action' => 'add'),array('class' => 'btn btn-sm btn-primary')) ?></li>
-                    </ul>
 
                                 <?php echo $this->Form->end(); ?>
 
