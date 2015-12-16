@@ -120,17 +120,22 @@
                                 ?>
 
 
-
+<div class="form-group required-field-block">
+          <div class="col-md-3 input-group">
+              <span class="input-group-addon"><span class="fa fa-user"></span></span>
                                 <?php
                                 echo $this->Form->input('username', array(
                                     'placeholder' => 'Username'
                                 ));
-                                ?>
+                                ?> </div> </div>
+                                <div class="form-group required-field-block">
+                                          <div class="col-md-3 input-group">
+                                              <span class="input-group-addon"><span class="fa fa-lock"></span></span>
                                 <?php
                                 echo $this->Form->input('password', array(
                                     'placeholder' => 'Password'
                                 ));
-                                ?>
+                                ?></div> </div>
 
 <?php
 echo $this->Form->submit('Sign in', array(

@@ -3573,3 +3573,12 @@ Request URL: /soporte/fonts/glyphicons-halflings-regular.ttf
 Stack Trace:
 #0 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-12-16 02:24:55 Error: [NotFoundException] Invalid user
+Request URL: /soporte/users/edit
+Stack Trace:
+#0 [internal function]: UsersController->edit()
+#1 C:\xampp\htdocs\soporte\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\soporte\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\soporte\app\webroot\index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
