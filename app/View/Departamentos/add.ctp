@@ -6,7 +6,11 @@
         </div>
 
 
+<div class="container">
 
+  <div class="form-group required-field-block">
+          <div class="col-md-3 input-group">
+              <span class="input-group-addon"><span class="fa  fa-suitcase"></span></span>
 	<?php
                                     echo $this->Form->create('Departamento', array(
                                         'action' => 'add',
@@ -25,13 +29,16 @@
                                         'placeholder' => 'Nombre del departamento'
                                     ));
                                     ?>
-
-	</fieldset>
+</div>
+</div>
 <?php
 echo $this->Form->submit('Enviar', array(
     'div' => 'form-group',
     'class' => 'btn btn-success'
 ));
 ?>
+</div>
+	</fieldset>
+
 </div>
 
